@@ -1,339 +1,323 @@
-﻿<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>StackLab тАФ ╨Т╨╡╨▒-╤Б╤В╤Г╨┤╨╕╤П</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="cursor-dot" id="cursorDot"></div>
-  <div class="cursor-ring" id="cursorRing"></div>
-
-  <nav class="nav" id="nav">
-    <a href="#hero" class="nav-logo">StackLab</a>
-    <div class="nav-links">
-      <a href="#services" class="nav-link">╨г╤Б╨╗╤Г╨│╨╕</a>
-      <a href="#works" class="nav-link">╨Я╤А╨╛╨╡╨║╤В╤Л</a>
-      <a href="#process" class="nav-link">╨Я╤А╨╛╤Ж╨╡╤Б╤Б</a>
-      <a href="#pricing" class="nav-link">╨в╨░╤А╨╕╤Д╤Л</a>
-      <a href="https://t.me/chrissbar" target="_blank" class="nav-link nav-cta">Telegram</a>
-    </div>
-    <button class="nav-burger" id="navBurger">
-      <span></span>
-      <span></span>
-    </button>
-  </nav>
-
-  <div class="mobile-menu" id="mobileMenu">
-    <div class="mobile-menu-bg" id="mobileMenuBg"></div>
-    <div class="mobile-menu-inner">
-      <a href="#services" class="mobile-menu-link">╨г╤Б╨╗╤Г╨│╨╕</a>
-      <a href="#works" class="mobile-menu-link">╨Я╤А╨╛╨╡╨║╤В╤Л</a>
-      <a href="#process" class="mobile-menu-link">╨Я╤А╨╛╤Ж╨╡╤Б╤Б</a>
-      <a href="#pricing" class="mobile-menu-link">╨в╨░╤А╨╕╤Д╤Л</a>
-      <a href="https://t.me/chrissbar" target="_blank" class="mobile-menu-link">Telegram</a>
-    </div>
-  </div>
-
-  <section class="hero" id="hero">
-    <div class="container">
-      <p class="hero-label">╨Т╨╡╨▒-╤Б╤В╤Г╨┤╨╕╤П</p>
-      <h1 class="hero-title">
-        ╨Ф╨╡╨╗╨░╨╡╨╝ ╤Б╨░╨╣╤В╤Л<br>
-        <span class="hero-title-accent">╨┤╨╗╤П ╨▒╨╕╨╖╨╜╨╡╤Б╨░</span>
-      </h1>
-      <p class="hero-desc">╨Ы╨╡╨╜╨┤╨╕╨╜╨│╨╕, ╨║╨╛╤А╨┐╨╛╤А╨░╤В╨╕╨▓╨╜╤Л╨╡ ╤Б╨░╨╣╤В╤Л, ╨▓╨╡╨▒-╨┐╤А╨╕╨╗╨╛╨╢╨╡╨╜╨╕╤П. ╨Ю╤В ╨╕╨┤╨╡╨╕ ╨┤╨╛ ╨╖╨░╨┐╤Г╤Б╨║╨░ тАФ ╨╖╨░ 2тАУ3 ╨┤╨╜╤П.</p>
-      <a href="https://t.me/StackLabb" target="_blank" class="btn btn-arrow-btn">
-        ╨Ю╨▒╤Б╤Г╨┤╨╕╤В╤М ╨┐╤А╨╛╨╡╨║╤В
-        <span class="arrow-line"></span>
-      </a>
-    </div>
-    <div class="hero-scroll-indicator">
-      <span>scroll</span>
-      <div class="scroll-line"></div>
-    </div>
-  </section>
-
-  <div class="marquee">
-    <div class="marquee-track">
-      <div class="marquee-group">
-        <span>╨Ы╨╡╨╜╨┤╨╕╨╜╨│╨╕</span>
-        <span class="dot">тАв</span>
-        <span>╨Ъ╨╛╤А╨┐╨╛╤А╨░╤В╨╕╨▓╨╜╤Л╨╡ ╤Б╨░╨╣╤В╤Л</span>
-        <span class="dot">тАв</span>
-        <span>╨Т╨╡╨▒-╨┐╤А╨╕╨╗╨╛╨╢╨╡╨╜╨╕╤П</span>
-        <span class="dot">тАв</span>
-        <span>SEO</span>
-        <span class="dot">тАв</span>
-        <span>╨в╨╡╤Е╨┐╨╛╨┤╨┤╨╡╤А╨╢╨║╨░</span>
-        <span class="dot">тАв</span>
-      </div>
-      <div class="marquee-group">
-        <span>╨Ы╨╡╨╜╨┤╨╕╨╜╨│╨╕</span>
-        <span class="dot">тАв</span>
-        <span>╨Ъ╨╛╤А╨┐╨╛╤А╨░╤В╨╕╨▓╨╜╤Л╨╡ ╤Б╨░╨╣╤В╤Л</span>
-        <span class="dot">тАв</span>
-        <span>╨Т╨╡╨▒-╨┐╤А╨╕╨╗╨╛╨╢╨╡╨╜╨╕╤П</span>
-        <span class="dot">тАв</span>
-        <span>SEO</span>
-        <span class="dot">тАв</span>
-        <span>╨в╨╡╤Е╨┐╨╛╨┤╨┤╨╡╤А╨╢╨║╨░</span>
-        <span class="dot">тАв</span>
-      </div>
-      <div class="marquee-group">
-        <span>╨Ы╨╡╨╜╨┤╨╕╨╜╨│╨╕</span>
-        <span class="dot">тАв</span>
-        <span>╨Ъ╨╛╤А╨┐╨╛╤А╨░╤В╨╕╨▓╨╜╤Л╨╡ ╤Б╨░╨╣╤В╤Л</span>
-        <span class="dot">тАв</span>
-        <span>╨Т╨╡╨▒-╨┐╤А╨╕╨╗╨╛╨╢╨╡╨╜╨╕╤П</span>
-        <span class="dot">тАв</span>
-        <span>SEO</span>
-        <span class="dot">тАв</span>
-        <span>╨в╨╡╤Е╨┐╨╛╨┤╨┤╨╡╤А╨╢╨║╨░</span>
-        <span class="dot">тАв</span>
-      </div>
-      <div class="marquee-group">
-        <span>╨Ы╨╡╨╜╨┤╨╕╨╜╨│╨╕</span>
-        <span class="dot">тАв</span>
-        <span>╨Ъ╨╛╤А╨┐╨╛╤А╨░╤В╨╕╨▓╨╜╤Л╨╡ ╤Б╨░╨╣╤В╤Л</span>
-        <span class="dot">тАв</span>
-        <span>╨Т╨╡╨▒-╨┐╤А╨╕╨╗╨╛╨╢╨╡╨╜╨╕╤П</span>
-        <span class="dot">тАв</span>
-        <span>SEO</span>
-        <span class="dot">тАв</span>
-        <span>╨в╨╡╤Е╨┐╨╛╨┤╨┤╨╡╤А╨╢╨║╨░</span>
-        <span class="dot">тАв</span>
-      </div>
-    </div>
-  </div>
-
-  <section class="services" id="services">
-    <div class="container">
-      <div class="section-top">
-        <span class="section-num">01</span>
-        <h2 class="section-title">╨г╤Б╨╗╤Г╨│╨╕</h2>
-      </div>
-      <div class="services-list">
-        <div class="service-row" data-anim>
-          <div class="service-row-top">
-            <span class="service-num">01</span>
-            <h3>╨Ы╨╡╨╜╨┤╨╕╨╜╨│╨╕</h3>
-          </div>
-          <p>╨Ю╨┤╨╜╨╛╤Б╤В╤А╨░╨╜╨╕╤З╨╜╤Л╨╡ ╤Б╨░╨╣╤В╤Л ╤Б ╨▓╤Л╤Б╨╛╨║╨╛╨╣ ╨║╨╛╨╜╨▓╨╡╤А╤Б╨╕╨╡╨╣. ╨Р╨┤╨░╨┐╤В╨╕╨▓╨╜╤Л╨╣ ╨┤╨╕╨╖╨░╨╣╨╜, ╨▒╤Л╤Б╤В╤А╨░╤П ╨╖╨░╨│╤А╤Г╨╖╨║╨░, ╨╕╨╜╤В╨╡╨│╤А╨░╤Ж╨╕╤П ╤Б ╨░╨╜╨░╨╗╨╕╤В╨╕╨║╨╛╨╣.</p>
-        </div>
-        <div class="service-row" data-anim>
-          <div class="service-row-top">
-            <span class="service-num">02</span>
-            <h3>╨Ъ╨╛╤А╨┐╨╛╤А╨░╤В╨╕╨▓╨╜╤Л╨╡ ╤Б╨░╨╣╤В╤Л</h3>
-          </div>
-          <p>╨Ь╨╜╨╛╨│╨╛╤Б╤В╤А╨░╨╜╨╕╤З╨╜╤Л╨╡ ╤Б╨░╨╣╤В╤Л ╨┤╨╗╤П ╨║╨╛╨╝╨┐╨░╨╜╨╕╨╣. ╨г╨┤╨╛╨▒╨╜╨░╤П ╨░╨┤╨╝╨╕╨╜╨║╨░, ╨╝╨░╤Б╤И╤В╨░╨▒╨╕╤А╤Г╨╡╨╝╨░╤П ╨░╤А╤Е╨╕╤В╨╡╨║╤В╤Г╤А╨░, SEO.</p>
-        </div>
-        <div class="service-row" data-anim>
-          <div class="service-row-top">
-            <span class="service-num">03</span>
-            <h3>╨Т╨╡╨▒-╨┐╤А╨╕╨╗╨╛╨╢╨╡╨╜╨╕╤П</h3>
-          </div>
-          <p>SPA/PWA ╤Б ╨╕╨╜╤В╨╡╤А╨░╨║╤В╨╕╨▓╨╜╤Л╨╝ ╨╕╨╜╤В╨╡╤А╤Д╨╡╨╣╤Б╨╛╨╝, real-time ╨┤╨░╨╜╨╜╤Л╨╝╨╕ ╨╕ ╨▓╤Л╤Б╨╛╨║╨╛╨╣ ╨┐╤А╨╛╨╕╨╖╨▓╨╛╨┤╨╕╤В╨╡╨╗╤М╨╜╨╛╤Б╤В╤М╤О.</p>
-        </div>
-        <div class="service-row" data-anim>
-          <div class="service-row-top">
-            <span class="service-num">04</span>
-            <h3>SEO ╨╕ ╨╛╨┐╤В╨╕╨╝╨╕╨╖╨░╤Ж╨╕╤П</h3>
-          </div>
-          <p>╨в╨╡╤Е╨╜╨╕╤З╨╡╤Б╨║╨░╤П ╨╛╨┐╤В╨╕╨╝╨╕╨╖╨░╤Ж╨╕╤П, ╤Б╨║╨╛╤А╨╛╤Б╤В╤М ╨╖╨░╨│╤А╤Г╨╖╨║╨╕, ╤Б╨╡╨╝╨░╨╜╤В╨╕╤З╨╡╤Б╨║╨░╤П ╤А╨░╨╖╨╝╨╡╤В╨║╨░.</p>
-        </div>
-        <div class="service-row" data-anim>
-          <div class="service-row-top">
-            <span class="service-num">05</span>
-            <h3>╨в╨╡╤Е╨┐╨╛╨┤╨┤╨╡╤А╨╢╨║╨░</h3>
-          </div>
-          <p>╨б╨╛╨┐╤А╨╛╨▓╨╛╨╢╨┤╨╡╨╜╨╕╨╡ ╨┐╨╛╤Б╨╗╨╡ ╨╖╨░╨┐╤Г╤Б╨║╨░: ╨╛╨▒╨╜╨╛╨▓╨╗╨╡╨╜╨╕╤П, ╨╝╨╛╨╜╨╕╤В╨╛╤А╨╕╨╜╨│, ╨┤╨╛╤А╨░╨▒╨╛╤В╨║╨╕.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="works" id="works">
-    <div class="container">
-      <div class="section-top">
-        <span class="section-num">02</span>
-        <h2 class="section-title">╨Я╤А╨╛╨╡╨║╤В╤Л</h2>
-      </div>
-      <div class="works-grid">
-        <div class="work-card" data-anim>
-          <div class="work-card-img">
-            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80" alt="Dashboard">
-          </div>
-          <div class="work-card-info">
-            <h3>FinTech Dashboard</h3>
-            <p>╨Т╨╡╨▒-╨┐╤А╨╕╨╗╨╛╨╢╨╡╨╜╨╕╨╡</p>
-          </div>
-        </div>
-        <div class="work-card" data-anim>
-          <div class="work-card-img">
-            <img src="https://images.unsplash.com/photo-1555421689-d68471e189f2?w=800&q=80" alt="Store">
-          </div>
-          <div class="work-card-info">
-            <h3>Fashion Store</h3>
-            <p>E-Commerce</p>
-          </div>
-        </div>
-        <div class="work-card" data-anim>
-          <div class="work-card-img">
-            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" alt="Travel">
-          </div>
-          <div class="work-card-info">
-            <h3>Travel Platform</h3>
-            <p>╨Ъ╨╛╤А╨┐╨╛╤А╨░╤В╨╕╨▓╨╜╤Л╨╣ ╤Б╨░╨╣╤В</p>
-          </div>
-        </div>
-        <div class="work-card" data-anim>
-          <div class="work-card-img">
-            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80" alt="Health">
-          </div>
-          <div class="work-card-info">
-            <h3>Health App</h3>
-            <p>╨Ы╨╡╨╜╨┤╨╕╨╜╨│</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="process" id="process">
-    <div class="container">
-      <div class="section-top">
-        <span class="section-num">03</span>
-        <h2 class="section-title">╨Я╤А╨╛╤Ж╨╡╤Б╤Б</h2>
-      </div>
-      <div class="process-grid">
-        <div class="process-step" data-anim>
-          <span class="step-num">01</span>
-          <h3>╨С╤А╨╕╤Д</h3>
-          <p>╨Ю╨▒╤Б╤Г╨╢╨┤╨░╨╡╨╝ ╨╖╨░╨┤╨░╤З╤Г, ╤Ж╨╡╨╗╨╕, ╨░╤Г╨┤╨╕╤В╨╛╤А╨╕╤О. ╨д╨╕╨║╤Б╨╕╤А╤Г╨╡╨╝ ╤В╤А╨╡╨▒╨╛╨▓╨░╨╜╨╕╤П ╨╕ ╤Б╤А╨╛╨║╨╕.</p>
-        </div>
-        <div class="process-step" data-anim>
-          <span class="step-num">02</span>
-          <h3>╨Ф╨╕╨╖╨░╨╣╨╜</h3>
-          <p>╨Ф╨╡╨╗╨░╨╡╨╝ ╨┐╤А╨╛╤В╨╛╤В╨╕╨┐ ╨╕ ╨╝╨░╨║╨╡╤В╤Л. ╨Ъ╨░╨╢╨┤╤Л╨╣ ╤Н╨║╤А╨░╨╜ тАФ ╨┤╨╛ ╨╝╨╡╨╗╨╛╤З╨╡╨╣.</p>
-        </div>
-        <div class="process-step" data-anim>
-          <span class="step-num">03</span>
-          <h3>╨а╨░╨╖╤А╨░╨▒╨╛╤В╨║╨░</h3>
-          <p>╨Я╨╕╤И╨╡╨╝ ╨║╨╛╨┤, ╤В╨╡╤Б╤В╨╕╤А╤Г╨╡╨╝ ╨╜╨░ ╨▓╤Б╨╡╤Е ╤Г╤Б╤В╤А╨╛╨╣╤Б╤В╨▓╨░╤Е, ╨╛╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╨╡╨╝ ╤Б╨║╨╛╤А╨╛╤Б╤В╤М.</p>
-        </div>
-        <div class="process-step" data-anim>
-          <span class="step-num">04</span>
-          <h3>╨Ч╨░╨┐╤Г╤Б╨║</h3>
-          <p>╨а╨░╨╖╨▓╨╛╤А╨░╤З╨╕╨▓╨░╨╡╨╝ ╨╜╨░ ╤Е╨╛╤Б╤В╨╕╨╜╨│╨╡, ╨╜╨░╤Б╤В╤А╨░╨╕╨▓╨░╨╡╨╝, ╨┐╨╡╤А╨╡╨┤╨░╤С╨╝ ╨▓╨░╨╝.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="pricing" id="pricing">
-    <div class="container">
-      <div class="section-top">
-        <span class="section-num">04</span>
-        <h2 class="section-title">╨в╨░╤А╨╕╤Д╤Л</h2>
-      </div>
-      <div class="pricing-grid">
-        <div class="pricing-card" data-anim>
-          <div class="pricing-price">4 000 тВ╜</div>
-          <div class="pricing-card-top">
-            <span class="pricing-num">01</span>
-            <h3>╨б╨░╨╣╤В-╨▓╨╕╨╖╨╕╤В╨║╨░</h3>
-          </div>
-          <p class="pricing-desc">╨Я╤А╨╛╤Б╤В╨╛╨╣ ╨╛╨┤╨╜╨╛╤Б╤В╤А╨░╨╜╨╕╤З╨╜╤Л╨╣ ╤Б╨░╨╣╤В тАФ ╨║╨╛╤А╨╛╤В╨║╨╛ ╨╕ ╨┐╨╛ ╨┤╨╡╨╗╤Г ╨┐╤А╨╡╨┤╤Б╤В╨░╨▓╨╗╤П╨╡╤В ╨▓╨░╤Б ╨╕ ╨▓╨░╤И ╨▒╨╕╨╖╨╜╨╡╤Б.</p>
-          <ul class="pricing-list">
-            <li>╨з╨╕╤Б╤В╤Л╨╣ ╨╝╨╕╨╜╨╕╨╝╨░╨╗╨╕╤Б╤В╨╕╤З╨╜╤Л╨╣ ╨┤╨╕╨╖╨░╨╣╨╜</li>
-            <li>╨Р╨┤╨░╨┐╤В╨░╤Ж╨╕╤П ╨┐╨╛╨┤ ╤В╨╡╨╗╨╡╤Д╨╛╨╜ ╨╕ ╨Я╨Ъ</li>
-            <li>╨С╨╗╨╛╨║ ╨╛ ╨▓╨░╤Б ╨╕ ╨▓╨░╤И╨╕╤Е ╤Г╤Б╨╗╤Г╨│╨░╤Е</li>
-            <li>╨Ъ╨╜╨╛╨┐╨║╨░ ╤Б╨▓╤П╨╖╨╕ ╨▓ Telegram</li>
-            <li>╨Ч╨░╨┐╤Г╤Б╨║ ╨╖╨░ 1тАУ2 ╨┤╨╜╤П</li>
-          </ul>
-          <a href="https://t.me/chrissbar" target="_blank" class="btn btn-arrow-btn pricing-btn">
-            ╨Т╤Л╨▒╤А╨░╤В╤М
-            <span class="arrow-line"></span>
-          </a>
-        </div>
-        <div class="pricing-card pricing-card-popular" data-anim>
-          <div class="pricing-card-popular-badge">╨Т╤Л╨▒╨╕╤А╨░╤О╤В ╤З╨░╤Й╨╡</div>
-          <div class="pricing-price">12 000 тВ╜</div>
-          <div class="pricing-card-top">
-            <span class="pricing-num">02</span>
-            <h3>╨Ы╨╡╨╜╨┤╨╕╨╜╨│</h3>
-          </div>
-          <p class="pricing-desc">╨Ю╨┤╨╜╨╛╤Б╤В╤А╨░╨╜╨╕╤З╨╜╤Л╨╣ ╤Б╨░╨╣╤В ╤Б ╤Б╨╕╨╗╤М╨╜╤Л╨╝ ╨┤╨╕╨╖╨░╨╣╨╜╨╛╨╝ ╨╕ ╨░╨╜╨╕╨╝╨░╤Ж╨╕╤П╨╝╨╕ тАФ ╨╛╨┤╨╜╨░ ╤Ж╨╡╨╗╤М: ╨┐╤А╨╡╨▓╤А╨░╤В╨╕╤В╤М ╨▓╨╕╨╖╨╕╤В ╨▓ ╨╖╨░╤П╨▓╨║╤Г.</p>
-          <ul class="pricing-list">
-            <li>╨Т╤Б╤С ╨╕╨╖ ╤В╨░╤А╨╕╤Д╨░ ┬л╨б╨░╨╣╤В-╨▓╨╕╨╖╨╕╤В╨║╨░┬╗</li>
-            <li>╨Ш╨╜╨┤╨╕╨▓╨╕╨┤╤Г╨░╨╗╤М╨╜╤Л╨╣ ╨┤╨╕╨╖╨░╨╣╨╜ ╨┐╨╛╨┤ ╨▓╨░╤И ╨▒╤А╨╡╨╜╨┤</li>
-            <li>╨Я╤А╨╛╨┤╤Г╨╝╨░╨╜╨╜╤Л╨╡ ╨░╨╜╨╕╨╝╨░╤Ж╨╕╨╕ ╨╕ ╤Н╤Д╤Д╨╡╨║╤В╤Л</li>
-            <li>╨Ц╨╕╨▓╨╛╨╣ ╤Б╨║╤А╨╛╨╗╨╗ ╨╕ reveal-╤Н╤Д╤Д╨╡╨║╤В╤Л</li>
-            <li>╨б╨╕╤Б╤В╨╡╨╝╨░ ╤Г╨┐╤А╨░╨▓╨╗╨╡╨╜╨╕╤П ╨║╨╛╨╜╤В╨╡╨╜╤В╨╛╨╝</li>
-            <li>╨Ч╨░╨┐╤Г╤Б╨║ ╨╖╨░ 2тАУ3 ╨┤╨╜╤П</li>
-          </ul>
-          <a href="https://t.me/chrissbar" target="_blank" class="btn btn-arrow-btn pricing-btn">
-            ╨Т╤Л╨▒╤А╨░╤В╤М
-            <span class="arrow-line"></span>
-          </a>
-        </div>
-        <div class="pricing-card" data-anim>
-          <div class="pricing-price">25 000 тВ╜</div>
-          <div class="pricing-card-top">
-            <span class="pricing-num">03</span>
-            <h3>╨Ь╨╜╨╛╨│╨╛╤Б╤В╤А╨░╨╜╨╕╤З╨╜╤Л╨╣</h3>
-          </div>
-          <p class="pricing-desc">╨Я╨╛╨╗╨╜╨╛╤Ж╨╡╨╜╨╜╤Л╨╣ ╤Б╨░╨╣╤В: ╤Г╤Б╨╗╤Г╨│╨╕, ╨║╨╡╨╣╤Б╤Л ╨╕ ╨┐╨╛╨╜╤П╤В╨╜╨░╤П ╤Б╤В╤А╤Г╨║╤В╤Г╤А╨░ ╨┤╨╗╤П ╤А╨╛╤Б╤В╨░ ╨▒╨╕╨╖╨╜╨╡╤Б╨░.</p>
-          <ul class="pricing-list">
-            <li>╨Т╤Б╤С ╨╕╨╖ ╤В╨░╤А╨╕╤Д╨░ ┬л╨Ы╨╡╨╜╨┤╨╕╨╜╨│┬╗</li>
-            <li>╨Ф╨╛ 5 ╨┐╤А╨╛╤А╨░╨▒╨╛╤В╨░╨╜╨╜╤Л╤Е ╤Б╤В╤А╨░╨╜╨╕╤Ж</li>
-            <li>╨Я╤А╨╛╨┤╤Г╨╝╨░╨╜╨╜╨░╤П ╤Б╤В╤А╤Г╨║╤В╤Г╤А╨░ ╨╕ ╨╜╨░╨▓╨╕╨│╨░╤Ж╨╕╤П</li>
-            <li>╨Ш╨╜╤В╨╡╨│╤А╨░╤Ж╨╕╨╕ ╨╕ ╤Д╨╛╤А╨╝╤Л</li>
-            <li>╨Ч╨░╨┐╤Г╤Б╨║ ╨╖╨░ 5тАУ6 ╨┤╨╜╨╡╨╣</li>
-          </ul>
-          <a href="https://t.me/StackLabb" target="_blank" class="btn btn-arrow-btn pricing-btn">
-            ╨Т╤Л╨▒╤А╨░╤В╤М
-            <span class="arrow-line"></span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta" id="contact">
-    <div class="container">
-      <h2 class="cta-title">╨Э╤Г╨╢╨╡╨╜ ╤Б╨░╨╣╤В?</h2>
-      <p class="cta-desc">╨Э╨░╨┐╨╕╤И╨╕╤В╨╡ ╨▓ Telegram тАФ ╨╛╨▒╤Б╤Г╨┤╨╕╨╝ ╨╖╨░╨┤╨░╤З╤Г ╨╕ ╤Б╨┤╨╡╨╗╨░╨╡╨╝ ╨┐╤А╨╡╨┤╨╗╨╛╨╢╨╡╨╜╨╕╨╡.</p>
-      <a href="https://t.me/StackLabb" target="_blank" class="btn btn-arrow-btn btn-lg">
-        @StackLabb
-        <span class="arrow-line"></span>
-      </a>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-top">
-        <a href="#hero" class="footer-logo">SlackLab</a>
-        <div class="footer-nav">
-          <a href="#services">╨г╤Б╨╗╤Г╨│╨╕</a>
-          <a href="#works">╨Я╤А╨╛╨╡╨║╤В╤Л</a>
-          <a href="#process">╨Я╤А╨╛╤Ж╨╡╤Б╤Б</a>
-          <a href="#pricing">╨в╨░╤А╨╕╤Д╤Л</a>
-          <a href="https://t.me/StackLabb" target="_blank">Telegram</a>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <span>┬й 2026 StackLab</span>
-      </div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StackLab — Веб-студия</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav-logo">StackLab</a>
+    <div class="nav-links">
+      <a href="#services" class="nav-link">Услуги</a>
+      <a href="#works" class="nav-link">Проекты</a>
+      <a href="#process" class="nav-link">Процесс</a>
+      <a href="#pricing" class="nav-link">Тарифы</a>
+      <a href="https://t.me/chrissbar" target="_blank" class="nav-link nav-cta">Telegram</a>
+    </div>
+    <button class="nav-burger" id="navBurger">
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-bg" id="mobileMenuBg"></div>
+    <div class="mobile-menu-inner">
+      <a href="#services" class="mobile-menu-link">Услуги</a>
+      <a href="#works" class="mobile-menu-link">Проекты</a>
+      <a href="#process" class="mobile-menu-link">Процесс</a>
+      <a href="#pricing" class="mobile-menu-link">Тарифы</a>
+      <a href="https://t.me/chrissbar" target="_blank" class="mobile-menu-link">Telegram</a>
+    </div>
+  </div>
+
+  <section class="hero" id="hero">
+    <div class="container">
+      <p class="hero-label">Веб-студия</p>
+      <h1 class="hero-title">
+        Делаем сайты<br>
+        <span class="hero-title-accent">для бизнеса</span>
+      </h1>
+      <p class="hero-desc">Лендинги, корпоративные сайты, веб-приложения. От идеи до запуска — за 2–3 дня.</p>
+      <a href="https://t.me/StackLabb" target="_blank" class="btn btn-arrow-btn">
+        Обсудить проект
+        <span class="arrow-line"></span>
+      </a>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <div class="marquee">
+    <div class="marquee-track">
+      <div class="marquee-group">
+        <span>Лендинги</span>
+        <span class="dot">•</span>
+        <span>Корпоративные сайты</span>
+        <span class="dot">•</span>
+        <span>Веб-приложения</span>
+        <span class="dot">•</span>
+        <span>SEO</span>
+        <span class="dot">•</span>
+        <span>Техподдержка</span>
+        <span class="dot">•</span>
+      </div>
+      <div class="marquee-group">
+        <span>Лендинги</span>
+        <span class="dot">•</span>
+        <span>Корпоративные сайты</span>
+        <span class="dot">•</span>
+        <span>Веб-приложения</span>
+        <span class="dot">•</span>
+        <span>SEO</span>
+        <span class="dot">•</span>
+        <span>Техподдержка</span>
+        <span class="dot">•</span>
+      </div>
+      <div class="marquee-group">
+        <span>Лендинги</span>
+        <span class="dot">•</span>
+        <span>Корпоративные сайты</span>
+        <span class="dot">•</span>
+        <span>Веб-приложения</span>
+        <span class="dot">•</span>
+        <span>SEO</span>
+        <span class="dot">•</span>
+        <span>Техподдержка</span>
+        <span class="dot">•</span>
+      </div>
+      <div class="marquee-group">
+        <span>Лендинги</span>
+        <span class="dot">•</span>
+        <span>Корпоративные сайты</span>
+        <span class="dot">•</span>
+        <span>Веб-приложения</span>
+        <span class="dot">•</span>
+        <span>SEO</span>
+        <span class="dot">•</span>
+        <span>Техподдержка</span>
+        <span class="dot">•</span>
+      </div>
+    </div>
+  </div>
+
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-top">
+        <span class="section-num">01</span>
+        <h2 class="section-title">Услуги</h2>
+      </div>
+      <div class="services-list">
+        <div class="service-row" data-anim>
+          <div class="service-row-top">
+            <span class="service-num">01</span>
+            <h3>Лендинги</h3>
+          </div>
+          <p>Одностраничные сайты с высокой конверсией. Адаптивный дизайн, быстрая загрузка, интеграция с аналитикой.</p>
+        </div>
+        <div class="service-row" data-anim>
+          <div class="service-row-top">
+            <span class="service-num">02</span>
+            <h3>Корпоративные сайты</h3>
+          </div>
+          <p>Многостраничные сайты для компаний. Удобная админка, масштабируемая архитектура, SEO.</p>
+        </div>
+        <div class="service-row" data-anim>
+          <div class="service-row-top">
+            <span class="service-num">03</span>
+            <h3>Веб-приложения</h3>
+          </div>
+          <p>SPA/PWA с интерактивным интерфейсом, real-time данными и высокой производительностью.</p>
+        </div>
+        <div class="service-row" data-anim>
+          <div class="service-row-top">
+            <span class="service-num">04</span>
+            <h3>SEO и оптимизация</h3>
+          </div>
+          <p>Техническая оптимизация, скорость загрузки, семантическая разметка.</p>
+        </div>
+        <div class="service-row" data-anim>
+          <div class="service-row-top">
+            <span class="service-num">05</span>
+            <h3>Техподдержка</h3>
+          </div>
+          <p>Сопровождение после запуска: обновления, мониторинг, доработки.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="works" id="works">
+    <div class="container">
+      <div class="section-top">
+        <span class="section-num">02</span>
+        <h2 class="section-title">Проекты</h2>
+      </div>
+      <div class="works-grid">
+        <div class="work-card work-card-full" data-anim>
+          <div class="work-card-img">
+            <img src="https://release-hub-nu.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.5a3f0a1d.png&w=64&q=75" alt="ReleaseHub" onerror="this.style.display='none'; this.parentElement.style.background='linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)';">
+          </div>
+          <div class="work-card-info work-card-info-full">
+            <h3>ReleaseHub</h3>
+            <p>Система согласования и публикации релизов</p>
+            <div class="work-card-tags">
+              <span>React 19</span>
+              <span>TypeScript</span>
+              <span>Vite</span>
+              <span>Supabase</span>
+              <span>Ant Design</span>
+            </div>
+            <div class="work-card-links">
+              <a href="https://release-hub-nu.vercel.app" target="_blank" class="work-link work-link-live">Демо</a>
+              <a href="https://github.com/trrainss/ReleaseHub" target="_blank" class="work-link work-link-code">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="process" id="process">
+    <div class="container">
+      <div class="section-top">
+        <span class="section-num">03</span>
+        <h2 class="section-title">Процесс</h2>
+      </div>
+      <div class="process-grid">
+        <div class="process-step" data-anim>
+          <span class="step-num">01</span>
+          <h3>Бриф</h3>
+          <p>Обсуждаем задачу, цели, аудиторию. Фиксируем требования и сроки.</p>
+        </div>
+        <div class="process-step" data-anim>
+          <span class="step-num">02</span>
+          <h3>Дизайн</h3>
+          <p>Делаем прототип и макеты. Каждый экран — до мелочей.</p>
+        </div>
+        <div class="process-step" data-anim>
+          <span class="step-num">03</span>
+          <h3>Разработка</h3>
+          <p>Пишем код, тестируем на всех устройствах, оптимизируем скорость.</p>
+        </div>
+        <div class="process-step" data-anim>
+          <span class="step-num">04</span>
+          <h3>Запуск</h3>
+          <p>Разворачиваем на хостинге, настраиваем, передаём вам.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-top">
+        <span class="section-num">04</span>
+        <h2 class="section-title">Тарифы</h2>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card" data-anim>
+          <div class="pricing-price">4 000 ₽</div>
+          <div class="pricing-card-top">
+            <span class="pricing-num">01</span>
+            <h3>Сайт-визитка</h3>
+          </div>
+          <p class="pricing-desc">Простой одностраничный сайт — коротко и по делу представляет вас и ваш бизнес.</p>
+          <ul class="pricing-list">
+            <li>Чистый минималистичный дизайн</li>
+            <li>Адаптация под телефон и ПК</li>
+            <li>Блок о вас и ваших услугах</li>
+            <li>Кнопка связи в Telegram</li>
+            <li>Запуск за 1–2 дня</li>
+          </ul>
+          <a href="https://t.me/chrissbar" target="_blank" class="btn btn-arrow-btn pricing-btn">
+            Выбрать
+            <span class="arrow-line"></span>
+          </a>
+        </div>
+        <div class="pricing-card pricing-card-popular" data-anim>
+          <div class="pricing-card-popular-badge">Выбирают чаще</div>
+          <div class="pricing-price">12 000 ₽</div>
+          <div class="pricing-card-top">
+            <span class="pricing-num">02</span>
+            <h3>Лендинг</h3>
+          </div>
+          <p class="pricing-desc">Одностраничный сайт с сильным дизайном и анимациями — одна цель: превратить визит в заявку.</p>
+          <ul class="pricing-list">
+            <li>Всё из тарифа «Сайт-визитка»</li>
+            <li>Индивидуальный дизайн под ваш бренд</li>
+            <li>Продуманные анимации и эффекты</li>
+            <li>Живой скролл и reveal-эффекты</li>
+            <li>Система управления контентом</li>
+            <li>Запуск за 2–3 дня</li>
+          </ul>
+          <a href="https://t.me/chrissbar" target="_blank" class="btn btn-arrow-btn pricing-btn">
+            Выбрать
+            <span class="arrow-line"></span>
+          </a>
+        </div>
+        <div class="pricing-card" data-anim>
+          <div class="pricing-price">25 000 ₽</div>
+          <div class="pricing-card-top">
+            <span class="pricing-num">03</span>
+            <h3>Многостраничный</h3>
+          </div>
+          <p class="pricing-desc">Полноценный сайт: услуги, кейсы и понятная структура для роста бизнеса.</p>
+          <ul class="pricing-list">
+            <li>Всё из тарифа «Лендинг»</li>
+            <li>До 5 проработанных страниц</li>
+            <li>Продуманная структура и навигация</li>
+            <li>Интеграции и формы</li>
+            <li>Запуск за 5–6 дней</li>
+          </ul>
+          <a href="https://t.me/StackLabb" target="_blank" class="btn btn-arrow-btn pricing-btn">
+            Выбрать
+            <span class="arrow-line"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="container">
+      <h2 class="cta-title">Нужен сайт?</h2>
+      <p class="cta-desc">Напишите в Telegram — обсудим задачу и сделаем предложение.</p>
+      <a href="https://t.me/StackLabb" target="_blank" class="btn btn-arrow-btn btn-lg">
+        @StackLabb
+        <span class="arrow-line"></span>
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#hero" class="footer-logo">StackLab</a>
+        <div class="footer-nav">
+          <a href="#services">Услуги</a>
+          <a href="#works">Проекты</a>
+          <a href="#process">Процесс</a>
+          <a href="#pricing">Тарифы</a>
+          <a href="https://t.me/StackLabb" target="_blank">Telegram</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 StackLab</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
